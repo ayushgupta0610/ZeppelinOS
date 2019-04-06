@@ -1,7 +1,7 @@
 {
   "zosversion": "2.2",
   "name": "Greeter",
-  "version": "2",
+  "version": "2.0",
   "contracts": {
     "Greeter": "GreeterV2"
   }

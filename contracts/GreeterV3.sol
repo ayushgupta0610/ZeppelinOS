@@ -2,9 +2,10 @@ pragma solidity ^0.4.24;
 
 import './GreeterV2.sol';
 
-contract GreeterV2 is Greeter{
+contract GreeterV3 is GreeterV2{
 
-    event PublishName(string name, uint256 date, address publisher);
+    event PublishName(string name, string message, uint256 date, address publisher);
+
     mapping(string => string) name_message;
 
     function greet(string _name) public view returns (string){
@@ -13,6 +14,7 @@ contract GreeterV2 is Greeter{
 
     function setMessage(string _name, string _message) public returns (bool){
         name_message[_name] = _message;
+        emit PublishName(_name, _message, now, msg.sender);
         return true;
     }
 

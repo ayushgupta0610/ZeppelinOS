@@ -1,7 +1,7 @@
 {
   "contracts": {
     "Greeter": {
-      "address": "0x7d60384f4cdbf437c69384e1913f41942d17d574",
+      "address": "0x08bfa8970f2bd0e7f52bcc38982c14daba1c5eb4",
       "constructorCode": "608060405234801561001057600080fd5b50611535806100206000396000f300",
       "bodyBytecodeHash": "525ed52d59b57b7b8dde1424d7b688bd53063ffd23471ac84c13b338d91349b4",
       "bytecodeHash": "8ee9d8009cb72a99513cdcd24c6518458c71a6dd8ec650b6353d75afc42bebff"
@@ -10,20 +10,20 @@
   "proxies": {
     "Greeter": [
       {
-        "address": "0x75b2bf96b7f27abf62920d0f2f30493fa9f6a09e",
-        "version": "2",
-        "implementation": "0x7d60384f4cdbf437c69384e1913f41942d17d574"
+        "address": "0x2525711fb03700336d72abf249c9eeaaa338993b",
+        "version": "2.0",
+        "implementation": "0x08bfa8970f2bd0e7f52bcc38982c14daba1c5eb4"
       }
     ]
   },
   "app": {
-    "address": "0xc6dc10709a8c9b0bbfc189ca9495e95d96b1b145"
+    "address": "0x640e5929d9e5ea03005e70e86966177951e9309a"
   },
-  "version": "2",
+  "version": "2.0",
   "package": {
-    "address": "0x07da1be35944f08220a2e691154204233916b90e"
+    "address": "0x604acd253e198404cbdfdffb5d1fc2fd08aff8f8"
   },
   "provider": {
-    "address": "0xfc869be200f08b90029543abaeb8b404cb1dc8e8"
+    "address": "0x467ae285b7159e5f733d9cc226c4ac9ca276c862"
   }
 }
